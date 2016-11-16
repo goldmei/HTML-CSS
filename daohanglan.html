@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航栏</title>
+    <style type="text/css">
+        *{margin:0;padding:0;font-size: 16px;}
+        .nav{
+            border-bottom: 10px solid #FF3300; height: 30px}
+        .nav li a.on, .nav li a:hover{background-color:#FF3300;color: #000;}
+        .nav li a{
+            display: block;
+            margin-left: 1px;
+            /*padding-top: 10px;*/
+            height:30px;
+            color: #ab565a;
+            width: 80px;
+            line-height: 30px;
+            /*background: rgba(15, 14, 14, 0.09);*/
+            background-color: #CCCCCC;
+            text-decoration: none;
+            text-align: center}
+        li{
+            list-style-type: none;
+            float: left;}
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a class="on" href="#">首页</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">产品展示</a></li>
+        <li><a href="#">售后服务</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+</body>
+</html>
